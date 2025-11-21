@@ -1,0 +1,12 @@
+// array is a collection of elements of the same type placed in contiguous memory locations
+
+int a[100]; allocate a memeory of 4x100 = 400 bytes, static memory, will contain garbage data
+
+int a[100] = {0}; initializtion array, with 0 in the first index, leading to 0's in all indexes
+
+int a[100] = {1,2,3}; first 3 indexes will be 1,2,3 and then the remaining will be 0's
+
+int a[] = {1,2,3}; size of the array is not defined and is optional, only 3 elements will be there
+
+string fruits[4] = {"a", "b", "c"}; linear array of strings, and each string is an array in itself
+
